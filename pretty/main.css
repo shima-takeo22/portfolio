@@ -1,6 +1,6 @@
 body{
 	background:#EAEAEA;
-	font-family: monospace, andalé mono;
+	font-family: sans-serif, gill-sans;
 	color: #637E5D;
 	margin-left: 100px;
 	margin-right: 100px;
@@ -46,9 +46,11 @@ h2, .subt{
 	transition: transform .2s; /* Animation */
 	max-height: 75vh;
 	float:center;
+	border-radius: 10px;
 }
 .zoom:hover{
 	transform: scale(1.5); 
+	border-radius: 10px;
 }
 .homept{
 	transition: transform .2s; /* Animation */
@@ -83,6 +85,7 @@ ul, .ptt{
 	display: inline-block;
 }
 .abtsf{
+	border-radius: 10px;
     max-height:350px;
     float: right;
     margin-right:17%;
